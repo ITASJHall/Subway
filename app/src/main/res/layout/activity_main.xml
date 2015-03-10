@@ -12,7 +12,7 @@
         android:text="Randomize"
         android:onClick="randomize"
         android:id="@+id/randombutton"
-        android:layout_centerVertical="true"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
 
     <TextView

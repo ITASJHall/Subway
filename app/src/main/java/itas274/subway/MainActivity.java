@@ -7,9 +7,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
-
-import java.lang.reflect.Array;
-import java.util.ArrayList;
 import java.util.Random;
 
 
@@ -51,6 +48,8 @@ public class MainActivity extends ActionBarActivity {
         Random r = new Random();
         int[] arrayOne = new int[15];
 
+
+        arrayOne[0] = r.nextInt(max-min)+min;
         arrayOne[1] = r.nextInt(max-min)+min;
         arrayOne[2] = r.nextInt(max-min)+min;
         arrayOne[3] = r.nextInt(max-min)+min;
@@ -60,6 +59,13 @@ public class MainActivity extends ActionBarActivity {
         arrayOne[7] = r.nextInt(max-min)+min;
         arrayOne[8] = r.nextInt(max-min)+min;
         arrayOne[9] = r.nextInt(max-min)+min;
+        arrayOne[10] = r.nextInt(max-min)+min;
+        arrayOne[11] = r.nextInt(max-min)+min;
+        arrayOne[12] = r.nextInt(max-min)+min;
+        arrayOne[13] = r.nextInt(max-min)+min;
+        arrayOne[14] = r.nextInt(max-min)+min;
+
+
 
         String testTotal = "The Random Number is " + arrayOne[1];
         for (int i=0; i<arrayOne.length; i++) {
